@@ -58,6 +58,11 @@ header{
 }
 .tarjetitas__imagenes{
     width: 400px;
+    transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 1s;
+}
+.tarjetitas__imagenes:hover{
+    transform: scale(1.1);
+    transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 1s;
 }
          /* FOOTER*/
 .footer{
@@ -117,9 +122,10 @@ header{
     font-size: 30px;
     font-family: fantasy;
 }
-.tour1__imagen{
+.tour__imagen{
     padding: 20px;
-    width:600px
+    width:600px;
+    transition: linear 1s;
 }
 .tour1__texto{
     padding: 20px;
@@ -137,9 +143,9 @@ header{
     font-size: 30px;
     font-family: fantasy;
 }
-.tour2__imagen{
-    padding: 20px;
-    width:600px
+.tour__imagen:hover{
+    transform: scale(1.1);
+    transition: linear 1s;
 }
 .tour2__texto{
     padding: 20px;
@@ -189,6 +195,7 @@ header{
 .noticia2__imagen{
     justify-content: center;
     width: 300px;
+    transform: scaleY(0.5);
 }
 
 /* CUERPO PAGINA DISCOGRAFIA */
