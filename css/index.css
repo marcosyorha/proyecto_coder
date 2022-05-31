@@ -1,0 +1,226 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/background.png)
+
+}
+        /* HEADER DE LA PAGINA*/
+header{
+    background-image: linear-gradient(to bottom, #460000, #380408, #29060a, #1a0308, #000000);
+}
+.header__titulo{
+    font-family: fantasy;
+    font-size: 50px;
+    color: #8b0000;
+}
+.header__barraNavegacion{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #ffffff;
+    font-family: sans-serif;
+
+}
+.header__barraNavegacion__item{
+    list-style: none;
+    text-decoration: none;
+}
+        /* CUERPO DE LA PAGINA INDEX */
+.articuloPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.articuloPrincipal__imagenBanda{
+    padding: 50px;
+}
+.articuloPrincipal__textoPrincipal{
+    display: flex;
+    font-size: 20px;
+    font-style: italic;
+    padding: 50px;
+    color: #ffffff
+}
+.articuloPrincipal__tarjetitas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tarjetitas{
+    color: #ffffff;
+}
+.tarjetitas__imagenes{
+    width: 400px;
+}
+         /* FOOTER*/
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.footer__copyright{
+    color: #ffffff;
+    grid-column: 2;
+    grid-row: 1;
+}
+.footer__mail{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+
+/* CUERPO PAGINA TOURS */
+.cartaTabla{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tour__titulo{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    padding: 20px;
+}
+.tour__tabla__item{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: rgb(15, 15, 15);
+    border-color: #8b0000;
+}
+.tour__box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.tour__antiguos{
+    text-align: center;
+    color: #8b0000;
+    font-size: 40px;
+    padding: 20px;
+}
+.tour1{
+    text-align: right;
+}
+.tour1__titulo{
+    padding: 20px;
+    color: #8b0000;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.tour1__imagen{
+    padding: 20px;
+    width:600px
+}
+.tour1__texto{
+    padding: 20px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium'
+}
+.tour2{
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.tour2__titulo{
+    padding: 20px;
+    color: #8b0000;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.tour2__imagen{
+    padding: 20px;
+    width:600px
+}
+.tour2__texto{
+    padding: 20px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium'
+}
+
+/* CUERPO PAGINA NOTICIAS */
+.noticia1__titulo{
+    text-align: center;
+    color: #8b0000;
+    font-size: 40px;
+    font-family: fantasy;
+    padding: 25px;
+}
+.noticia1{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.noticia1__texto{
+    color: #ffffff;
+    font-size: 25px;
+}
+.noticia1__imagen{
+    width: 300px;
+}
+.noticia2__titulo{
+    text-align: center;
+    color: #8b0000;
+    font-size: 40px;
+    font-family: fantasy;
+    padding: 25px;
+}
+.noticia2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.noticia2__texto{
+    color: #ffffff;
+    font-size: 25px;
+}
+.noticia2__imagen{
+    justify-content: center;
+    width: 300px;
+}
+
+/* CUERPO PAGINA DISCOGRAFIA */
+.discografia__titulo{
+    text-align: center;
+    font-size: 50px;
+    color: #8b0000;
+    font-family: fantasy;
+}
+.discos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+}
+
+.discos__titulo{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+/* CUERPO PAGINA CONTACTO */
+.contacto{
+    font-size: 20px;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 ;
+}
