@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
     <header class="header">
@@ -13,19 +14,19 @@
         <nav>
             <ul class="header__barraNavegacion">
                 <li class="header__barraNavegacion__item">
-                    <a href="../index.html">Inicio</a>
+                    <a class="barraEnlace" href="../index.html">Inicio</a>
                 </li>
                  <li class="header__barraNavegacion__item">
-                    <a href="./discografia.html">Discografia</a>
+                    <a class="barraEnlace" href="./discografia.html">Discografia</a>
                 </li>
                  <li class="header__barraNavegacion__item">
-                    <a href="./noticias.html">Noticias</a>
+                    <a class="barraEnlace" href="./noticias.html">Noticias</a>
                  </li>
                  <li class="header__barraNavegacion__item">
-                    <a href="./tours.html">Tours</a>
+                    <a class="barraEnlace" href="./tours.html">Tours</a>
                 </li>
                 <li class="header__barraNavegacion__item">
-                    <a href="./contacto.html">Contacto</a>
+                    <a class="barraEnlace" href="./contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -41,8 +42,8 @@
 
             <label for="mensaje">Deja tu mensaje</label>
             <textarea name="mensaje" cols="30" rows="10"></textarea>
-            <input type="submit" name="Enviar">
-            <input type="reset" name="Restablecer">
+            <button type="button" class="btn btn-primary btn-sm">Enviar</button>
+            <button type="button" class="btn btn-secondary btn-sm">Borrar Todo</button>
         </section>
     </main>
     <footer class="footer">

@@ -18,6 +18,10 @@ header{
     font-family: fantasy;
     font-size: 50px;
     color: #8b0000;
+    text-decoration: none;
+}
+.header__titulo:hover{
+    color: #8b0000;
 }
 .header__barraNavegacion{
     display: flex;
@@ -30,24 +34,25 @@ header{
 }
 .header__barraNavegacion__item{
     list-style: none;
+}
+.barraEnlace{
+    color: #ffffff;
     text-decoration: none;
 }
+.barraEnlace:hover{
+    color: #8b0000;
+}
         /* CUERPO DE LA PAGINA INDEX */
+.articuloP__titulo{
+    color: #8b0000;
+    text-align: center;
+    padding: 20px;
+}
 .articuloPrincipal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.articuloPrincipal__imagenBanda{
-    padding: 50px;
-}
-.articuloPrincipal__textoPrincipal{
-    display: flex;
+    color: #ffffff;
     font-size: 20px;
-    font-style: italic;
-    padding: 50px;
-    color: #ffffff
 }
+
 .articuloPrincipal__tarjetitas{
     display: flex;
     flex-direction: row;
@@ -55,6 +60,10 @@ header{
 }
 .tarjetitas{
     color: #ffffff;
+}
+.tarjetitas__texto{
+    font-size: 15px;
+    font-family: 'Lucida Sans'
 }
 .tarjetitas__imagenes{
     width: 400px;
@@ -83,7 +92,7 @@ header{
 
 
 /* CUERPO PAGINA TOURS */
-.cartaTabla{
+.table-dark{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -92,8 +101,9 @@ header{
 .tour__titulo{
     text-align: center;
     font-size: 40px;
-    color: #ffffff;
+    color: #8b0000;
     padding: 20px;
+    font-family: sans-serif;
 }
 .tour__tabla__item{
     text-align: center;
@@ -153,6 +163,18 @@ header{
     font-size: 25px;
     font-family: 'Franklin Gothic Medium'
 }
+.conciertos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.conciertos__titulo{
+    color: #8b0000;
+    font-size: 40px;
+    text-align: center;
+    gap: 15px;
+}
 
 /* CUERPO PAGINA NOTICIAS */
 .noticia1__titulo{
@@ -168,9 +190,9 @@ header{
     padding: 20px;
 }
 
-.noticia1__texto{
+.noticia__texto{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 20px;
 }
 .noticia1__imagen{
     width: 300px;
@@ -218,7 +240,12 @@ header{
     font-size: 40px;
     color: #ffffff;
 }
-
+.canciones__titulo{
+    text-align: center;
+    color: #8b0000;
+    font-size: 35px;
+    gap: 15px;
+}
 /* CUERPO PAGINA CONTACTO */
 .contacto{
     font-size: 20px;

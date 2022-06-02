@@ -6,26 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tours</title>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
     <header class="header">
-        <h1 class="header__titulo">Guns And Roses</h1>
+        <h1>
+            <a class="header__titulo"  href="/index.html">Guns N' Roses</a>
+        </h1>
         <nav>
             <ul class="header__barraNavegacion">
                 <li class="header__barraNavegacion__item">
-                    <a href="../index.html">Inicio</a>
+                    <a class="barraEnlace" href="../index.html">Inicio</a>
                 </li>
                  <li class="header__barraNavegacion__item">
-                    <a href="./discografia.html">Discografia</a>
+                    <a class="barraEnlace" href="./discografia.html">Discografia</a>
                 </li>
                  <li class="header__barraNavegacion__item">
-                    <a href="./noticias.html">Noticias</a>
+                    <a class="barraEnlace" href="./noticias.html">Noticias</a>
                  </li>
                  <li class="header__barraNavegacion__item">
-                    <a href="./tours.html">Tours</a>
+                    <a class="barraEnlace" href="./tours.html">Tours</a>
                 </li>
                 <li class="header__barraNavegacion__item">
-                    <a href="./contacto.html">Contacto</a>
+                    <a class="barraEnlace" href="./contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -33,7 +36,7 @@
     <H1 class="tour__titulo">Proximos tours de la banda</H1>
     <main class="tour">
         <section class="cartaTabla">
-             <table border class="tour__tabla">
+             <table class="table table-dark table-striped-columns">
                  <tr class="tour__tabla__item">
                     <th>Pais</th>
                     <th>Ciudad</th>
@@ -88,6 +91,25 @@
                 <img class="tour__imagen" src="../img/tour2.jpg" alt="imagen del concierto de Tokyo durante la gira">
                 <p class="tour2__texto">El Use Your Illusion World Tour fue una gira de la banda Guns N' Roses que se desarrolló del 24 de mayo de 1991 al 17 de julio de 1993. No solo fue la gira más larga de la banda, sino también uno de las giras más largas en la historia del rock, compuesta de 192 conciertos en 27 países.Hubo muchos sucesos inesperados en la gira, debido a los disturbios, el comienzo tardío de algunos conciertos, las cancelaciones y desvaríos abiertamente por el cantante Axl Rose.</p>
             </article>
+        </section>
+        <h2 class="conciertos__titulo">Conciertos historicos</h2>
+        <section class="conciertos">
+            <div class="card" style="width: 18rem;">
+                <img src="../img/tokyo1992.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tokyo 1992</h5>
+                  <p class="card-text">Se trató de una de las noches más brillantes de Guns N’ Roses, tocaron una seleccion de canciones soñada (muchos de ellos parte del album Use your illusion, ya que estaban en esa misma gira) y contando con el condimento de un conciertoen tierras niponas en mucho tiempo.</p>
+                  <a href="https://www.facebook.com/watch/?v=676060329459099" class="btn btn-primary">concierto completo</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="../img/ritz1988.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The Ritz 1988</h5>
+                  <p class="card-text">Fue parte de un ciclo de conciertos televisados por MTV, todos por locación el club neoyorkino de The Ritz. Guns N’ Roses dejó para la posteridad el mejor y más crudo de ellos; una completa salvajada. Que además es uno de los muy pocos registros profesionales de lo que fue la formación original, con Steven Adler en la batería.</p>
+                  <a href="https://youtu.be/BbOoch-AYM4" class="btn btn-primary">concierto completo</a>
+                </div>
+              </div>
         </section>
     </main>
      <footer class="footer">
