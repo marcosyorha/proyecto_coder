@@ -240,11 +240,29 @@ header{
     font-size: 40px;
     color: #ffffff;
 }
+.canciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
 .canciones__titulo{
     text-align: center;
     color: #8b0000;
     font-size: 35px;
     gap: 15px;
+}
+.canciones__img{
+    width: 500px;
+}
+.canciones__tabla{
+    color: rgb(36, 12, 12);
+    list-style: none;
+}
+.canciones__item{
+    color: #ffffff;
+    font-size: 25px;
+    
 }
 /* CUERPO PAGINA CONTACTO */
 .contacto{
