@@ -1,0 +1,15 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    &__copyright{
+    color: #ffffff;
+    grid-column: 2;
+    grid-row: 1;
+}
+    &__mail{
+    grid-column: 3;
+    grid-row: 2;
+}
+}

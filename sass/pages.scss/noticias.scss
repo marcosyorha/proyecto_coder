@@ -1,0 +1,43 @@
+.noticia1{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+
+    &__titulo{
+        text-align: center;
+        color: #8b0000;
+        font-size: 40px;
+        font-family: fantasy;
+        padding: 25px;
+}
+    &__imagen{
+        width: 300px;
+}
+.noticia__texto{
+    color: #ffffff;
+    font-size: 20px;
+}
+}
+
+.noticia2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+
+    &__titulo{
+        text-align: center;
+        color: #8b0000;
+        font-size: 40px;
+        font-family: fantasy;
+        padding: 25px;
+}
+    &__texto{
+        color: #ffffff;
+        font-size: 25px;
+}
+    &__imagen{
+        justify-content: center;
+        width: 300px;
+        transform: scaleY(0.5);
+}
+}

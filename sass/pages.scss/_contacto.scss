@@ -1,0 +1,12 @@
+.contacto{
+    font-size: 20px;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    &__formulario{
+        display: flex;
+        flex-direction: column;
+        grid-column: 2 ;
+}
+}

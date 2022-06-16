@@ -1,0 +1,23 @@
+header{
+    background-image: linear-gradient(to bottom, #460000, #380408, #29060a, #1a0308, #000000);
+
+    &__titulo{
+    font-family: fantasy;
+    font-size: 50px;
+    color: #8b0000;
+    text-decoration: none;
+}
+    &__titulo:hover{
+    color: #8b0000;
+}
+    &__barraNavegacion{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+        &__item{
+            list-style: none;}
+}
