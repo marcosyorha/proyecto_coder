@@ -1,3 +1,4 @@
+/*pages*/
 .contacto {
   font-size: 20px;
   color: #ffffff;
@@ -7,3 +8,218 @@
     display: flex;
     flex-direction: column;
     grid-column: 2; }
+
+.discografiaTitulo {
+  text-align: center;
+  font-size: 50px;
+  color: #8b0000;
+  font-family: fantasy; }
+
+.discos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 20px; }
+  .discos__titulo {
+    font-size: 40px;
+    color: #ffffff; }
+
+.canciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px; }
+  .canciones__titulo {
+    text-align: center;
+    color: #8b0000;
+    font-size: 35px;
+    gap: 15px; }
+  .canciones__img {
+    width: 500px; }
+  .canciones__tabla {
+    color: #240c0c;
+    list-style: none; }
+  .canciones__item {
+    color: #ffffff;
+    font-size: 25px; }
+
+.articuloP__titulo {
+  color: #8b0000;
+  text-align: center;
+  padding: 20px; }
+
+.articuloPrincipal {
+  color: #ffffff;
+  font-size: 20px; }
+
+.articuloPrincipal__tarjetitas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.tarjetitas {
+  color: #ffffff; }
+  .tarjetitas__texto {
+    font-size: 15px;
+    font-family: 'Lucida Sans'; }
+  .tarjetitas__imagenes {
+    width: 400px;
+    transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 1s; }
+
+.tarjetitas__imagenes:hover {
+  transform: scale(1.1);
+  transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 1s; }
+
+.noticia1 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px; }
+  .noticia1__titulo {
+    text-align: center;
+    color: #8b0000;
+    font-size: 40px;
+    font-family: fantasy;
+    padding: 25px; }
+  .noticia1__imagen {
+    width: 300px; }
+
+.noticia2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px; }
+  .noticia2__titulo {
+    text-align: center;
+    color: #8b0000;
+    font-size: 40px;
+    font-family: fantasy;
+    padding: 25px; }
+  .noticia2__texto {
+    color: #ffffff;
+    font-size: 20px; }
+  .noticia2__imagen {
+    justify-content: center;
+    width: 300px;
+    transform: scaleY(0.5); }
+
+.table-dark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.tourTitulo {
+  text-align: center;
+  font-size: 40px;
+  color: #8b0000;
+  padding: 20px;
+  font-family: sans-serif; }
+
+.tour__tabla__item {
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #0f0f0f;
+  border-color: #8b0000; }
+
+.tour__box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.tour__antiguos {
+  text-align: center;
+  color: #8b0000;
+  font-size: 40px;
+  padding: 20px; }
+
+.tour1 {
+  text-align: right; }
+  .tour1__titulo {
+    padding: 20px;
+    color: #8b0000;
+    font-size: 30px;
+    font-family: fantasy; }
+  .tour1__texto {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium'; }
+
+.tour__imagen {
+  padding: 20px;
+  width: 600px;
+  transition: linear 1s; }
+  .tour__imagen:hover {
+    transform: scale(1.1);
+    transition: linear 1s; }
+
+.tour2 {
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  .tour2__titulo {
+    padding: 20px;
+    color: #8b0000;
+    font-size: 30px;
+    font-family: fantasy; }
+  .tour2__texto {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium'; }
+
+.conciertos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .conciertos__titulo {
+    color: #8b0000;
+    font-size: 40px;
+    text-align: center;
+    gap: 15px; }
+
+/*partials*/
+.header {
+  background-image: linear-gradient(to bottom, #460000, #380408, #29060a, #1a0308, #000000); }
+  .header__titulo {
+    font-family: fantasy;
+    font-size: 50px;
+    color: #8b0000;
+    text-decoration: none; }
+  .header__titulo:hover {
+    color: #8b0000; }
+  .header__barraNavegacion {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #ffffff;
+    font-family: sans-serif; }
+    .header__barraNavegacion__item {
+      list-style: none; }
+
+.barraEnlace {
+  color: #ffffff;
+  text-decoration: none; }
+
+.barraEnlace:hover {
+  color: #8b0000; }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; }
+  .footer__copyright {
+    color: #ffffff;
+    grid-column: 2;
+    grid-row: 1; }
+  .footer__mail {
+    grid-column: 3;
+    grid-row: 2; }
+
+.background {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../img/background.png); }

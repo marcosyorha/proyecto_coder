@@ -1,1 +1,11 @@
-@import "./pages.scss/contacto"
+ /*pages*/
+@import "./pages.scss/contacto";
+@import "./pages.scss/discografia";
+@import "./pages.scss/home";
+@import "./pages.scss/noticias";
+@import "./pages.scss/tours";
+
+/*partials*/
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/background";

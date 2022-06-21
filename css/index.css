@@ -98,7 +98,7 @@ header{
     justify-content: center;
     flex-wrap: wrap;
 }
-.tour__titulo{
+.tourTitulo{
     text-align: center;
     font-size: 40px;
     color: #8b0000;
@@ -221,7 +221,7 @@ header{
 }
 
 /* CUERPO PAGINA DISCOGRAFIA */
-.discografia__titulo{
+.discografiaTitulo{
     text-align: center;
     font-size: 50px;
     color: #8b0000;

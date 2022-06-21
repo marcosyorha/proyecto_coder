@@ -1,0 +1,90 @@
+.table-dark{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tourTitulo{
+    text-align: center;
+    font-size: 40px;
+    color: #8b0000;
+    padding: 20px;
+    font-family: sans-serif;
+
+}
+.tour__tabla__item{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: rgb(15, 15, 15);
+    border-color: #8b0000;
+}
+.tour__box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.tour__antiguos{
+    text-align: center;
+    color: #8b0000;
+    font-size: 40px;
+    padding: 20px;
+}
+.tour1{
+    text-align: right;
+
+    &__titulo{
+        padding: 20px;
+        color: #8b0000;
+        font-size: 30px;
+        font-family: fantasy;
+}
+    &__texto{
+        padding: 20px;
+        color: #ffffff;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium'
+}
+}
+.tour__imagen{
+    padding: 20px;
+    width:600px;
+    transition: linear 1s;
+
+    &:hover{
+        transform: scale(1.1);
+        transition: linear 1s;
+}
+}
+
+.tour2{
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    &__titulo{
+        padding: 20px;
+        color: #8b0000;
+        font-size: 30px;
+        font-family: fantasy;
+}
+    &__texto{
+        padding: 20px;
+        color: #ffffff;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium'
+}
+}
+
+.conciertos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    &__titulo{
+        color: #8b0000;
+        font-size: 40px;
+        text-align: center;
+        gap: 15px;
+}
+}

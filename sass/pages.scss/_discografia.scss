@@ -1,0 +1,43 @@
+.discografiaTitulo{
+    text-align: center;
+    font-size: 50px;
+    color: #8b0000;
+    font-family: fantasy;
+}
+.discos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+    
+    &__titulo{
+        font-size: 40px;
+        color: #ffffff;
+}
+}
+.canciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+
+    &__titulo{
+        text-align: center;
+        color: #8b0000;
+        font-size: 35px;
+        gap: 15px;
+}
+    &__img{
+        width: 500px;
+}
+    &__tabla{
+        color: rgb(36, 12, 12);
+        list-style: none;
+}
+    &__item{
+        color: #ffffff;
+        font-size: 25px;    
+}
+}

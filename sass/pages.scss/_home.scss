@@ -1,0 +1,31 @@
+.articuloP__titulo{
+    color: #8b0000;
+    text-align: center;
+    padding: 20px;
+}
+.articuloPrincipal{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.articuloPrincipal__tarjetitas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tarjetitas{
+    color: #ffffff;
+
+    &__texto{
+        font-size: 15px;
+        font-family: 'Lucida Sans'
+}
+    &__imagenes{
+        width: 400px;
+        transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 1s;
+}
+}
+.tarjetitas__imagenes:hover{
+    transform: scale(1.1);
+    transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 1s;
+}
