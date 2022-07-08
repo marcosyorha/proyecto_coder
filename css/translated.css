@@ -9,6 +9,13 @@
     flex-direction: column;
     grid-column: 2; }
 
+.agradecimiento {
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  color: #8b0000;
+  padding: 40px; }
+
 .discografiaTitulo {
   text-align: center;
   font-size: 50px;
@@ -23,8 +30,9 @@
   gap: 10px;
   padding: 20px; }
   .discos__titulo {
+    font-family: fantasy;
     font-size: 40px;
-    color: #ffffff; }
+    color: #8b0000; }
 
 .canciones {
   display: flex;
@@ -72,36 +80,27 @@
   transform: scale(1.1);
   transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 1s; }
 
-.noticia1 {
+.noticia {
   display: flex;
   flex-direction: row-reverse;
   padding: 20px; }
-  .noticia1__titulo {
+  .noticia__titulo {
     text-align: center;
     color: #8b0000;
     font-size: 40px;
     font-family: fantasy;
-    padding: 25px; }
-  .noticia1__imagen {
-    width: 300px; }
-
-.noticia2 {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 20px; }
-  .noticia2__titulo {
-    text-align: center;
-    color: #8b0000;
-    font-size: 40px;
-    font-family: fantasy;
-    padding: 25px; }
-  .noticia2__texto {
+    padding: 30px; }
+  .noticia__texto {
     color: #ffffff;
-    font-size: 20px; }
-  .noticia2__imagen {
+    font-size: 20px;
+    padding: 10px; }
+  .noticia__imagen {
     justify-content: center;
-    width: 300px;
+    width: 400px;
     transform: scaleY(0.5); }
+  .noticia__imagen1 {
+    justify-content: space-between;
+    width: 500px; }
 
 .table-dark {
   display: flex;
